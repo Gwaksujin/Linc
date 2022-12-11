@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+	<meta charset="utf-8" />
+	<title>부밥즈 - 부천 페이지</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="description" content="Agency HTML Template">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+	<meta name="author" content="Themefisher">
+	<meta name="generator" content="Themefisher Html5 Agency Template v1.0">
+
+	<!-- theme meta -->
+	<meta name="theme-name" content="megakit" />
+
+	<!-- bootstrap.min css -->
+	<link rel="stylesheet" type="text/css" href="/source/plugins/bootstrap/bootstrap.min.css">
+	<!-- Icon Font Css -->
+	<link rel="stylesheet" type="text/css"  href="/source/plugins/themify/css/themify-icons.css">
+	<link rel="stylesheet" type="text/css"  href="/source/plugins/fontawesome/css/all.min.css">
+	<link rel="stylesheet" type="text/css"  href="/source/plugins/magnific-popup/magnific-popup.css">
+	<!-- Owl Carousel CSS -->
+	<link rel="stylesheet" type="text/css"  href="/source/plugins/slick/slick.css">
+	<link rel="stylesheet" type="text/css"  href="/source/plugins/slick/slick-theme.css">
+
+	<!-- Main Stylesheet -->
+	<link rel="stylesheet" type="text/css"  href="/source/css/style.css">
+
+	<!--Favicon-->
+	<link rel="icon" href="/source/images/favicon.png" type="image/x-icon">
+
+	<link rel="stylesheet" type="text/css"  href="/source/css/list.css">
+</head>
+<div th:replace="Fragments/navigation :: navigationFragment('???????')" class="navigation"></div>
+<div th:replace="Fragments/pageTitle :: titleFragment('부천 맛집 소개', '부천')" class="page-title bg-1"></div>
+<section class="section blog-wrap bg-gray">
+	<div class="container">
+		<table class="table">
+			<thead>
+			<tr>
+				<th scope="col">No.</th>
+				<th scope="col">제목</th>
+				<th scope="col">작성자</th>
+				<th scope="col">작성일</th>
+			</tr>
+			</thead>
+			<tbody>
+			<!--<tr th:each="bucheon, loop : ${paging}" style="text-align:center;">
+				<th scope="row" th:text="${paging.getTotalElements - (paging.number * paging.size) - loop.index}"></th>
+				<td>
+					<a th:href="@{'/bucheon/' + ${bucheon.id}}">
+						<span th:text="${bucheon.title}"></span>
+					</a>
+				</td>
+				<td th:text="${bucheon?.username}"></td>
+			</tr>-->
+			<tr>
+				<th>2</th>
+				<td>
+					<a href="/bucheon/2"><span>오다초밥</span></a>
+				</td>
+				<td>부밥즈</td>
+				<td>2022.12.11</td>
+			</tr>
+			<tr>
+				<th>1</th>
+				<td>
+					<a href="/bucheon/1"><span>시골 뚝배기</span></a>
+				</td>
+				<td>부밥즈</td>
+				<td>2022.12.11</td>
+			</tr>
+			</tbody>
+		</table>
+		<!--<div class="writeBtn">
+			<a href="/bucheon/write" class="btn btn-main btn-small">작성하기</a>
+		</div>-->
+
+		<div class="row justify-content-center mt-5">
+			<div class="col-lg-6 text-center">
+				<nav class="navigation pagination d-inline-block">
+					<div class="nav-links">
+						<a class="prev page-numbers" href="#">Prev</a>
+						<span aria-current="page" class="page-numbers current">1</span>
+						<a class="page-numbers" href="#">2</a>
+						<a class="next page-numbers" href="#">Next</a>
+					</div>
+				</nav>
+			</div>
+		</div>
+		<!--<div th:if="${paging!=null and !paging.isEmpty()}">
+			<ul class="pagination justify-content-center" style="list-style:none;">
+				<li class="page-item" th:classappend="${!paging.hasPrevious} ? 'disabled'">
+					<a class="page-link"
+					   th:href="@{|?page=${paging.number-1}|}">
+						<span tabindex="0">이전</span>
+					</a>
+				</li>
+				<li th:each="page: ${#numbers.sequence(startPage, endPage)}"
+					th:if="${page >= paging.number-1 and page <= paging.number+3}"
+					th:classappend="${page == paging.number + 1} ? 'disabled'"
+					class="page-item" tabindex="0">
+					<a th:text="${page}" class="page-link" th:href="@{|?page=${page-1}|}"></a>
+				</li>
+				<li class="page-item" th:classappend="${!paging.hasNext} ? 'disabled'">
+					<a class="page-link" th:href="@{|?page=${paging.number+1}|}">
+						<span tabindex="0">다음</span>
+					</a>
+				</li>
+			</ul>
+		</div>-->
+	</div>
+</section>
+
+<div th:replace="Fragments/footer :: footerFragment('???????')" class="footer"></div>
+
+<script src="/source/plugins/jquery/jquery.min.js"></script>
+<!-- Bootstrap 4.3.1 -->
+<script src="/source/plugins/bootstrap/bootstrap.min.js"></script>
+<!--  Magnific Popup-->
+<script src="/source/plugins/magnific-popup/jquery.magnific-popup.min.js"></script>
+<!-- Slick Slider -->
+<script src="/source/plugins/slick/slick.min.js"></script>
+<!-- Counterup -->
+<script src="/source/plugins/counterup/jquery.waypoints.min.js"></script>
+<script src="/source/plugins/counterup/jquery.counterup.min.js"></script>
+
+<!-- Google Map -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU" defer></script>
+<script src="/source/plugins/google-map/map.js" defer></script>
+
+<script src="/source/js/script.js"></script>
+
+
+
+
+</body>
+
+</html>
