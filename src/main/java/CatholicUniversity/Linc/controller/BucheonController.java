@@ -36,7 +36,7 @@ public class BucheonController {
 
     private final String bucheonContextPath = Bucheon.class.getName();
 
-    @GetMapping("/main")
+    @GetMapping("/")
     public String main(){
         return "main";
     }
