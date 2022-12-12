@@ -1,7 +1,7 @@
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
 	<meta charset="utf-8" />
-	<title>부밥즈 - 부천 페이지(오다초밥)</title>
+	<title>부밥즈 - 역곡 페이지(명가순대국)</title>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="description" content="Agency HTML Template">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
@@ -12,28 +12,73 @@
 	<meta name="theme-name" content="megakit" />
 
 	<!-- bootstrap.min css -->
-	<link rel="stylesheet" type="text/css" href="/source/plugins/bootstrap/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="./static/source/plugins/bootstrap/bootstrap.min.css">
 	<!-- Icon Font Css -->
-	<link rel="stylesheet" type="text/css"  href="/source/plugins/themify/css/themify-icons.css">
-	<link rel="stylesheet" type="text/css"  href="/source/plugins/fontawesome/css/all.min.css">
-	<link rel="stylesheet" type="text/css"  href="/source/plugins/magnific-popup/magnific-popup.css">
+	<link rel="stylesheet" type="text/css"  href="./static/source/plugins/themify/css/themify-icons.css">
+	<link rel="stylesheet" type="text/css"  href="./static/source/plugins/fontawesome/css/all.min.css">
+	<link rel="stylesheet" type="text/css"  href="./static/source/plugins/magnific-popup/magnific-popup.css">
 	<!-- Owl Carousel CSS -->
-	<link rel="stylesheet" type="text/css"  href="/source/plugins/slick/slick.css">
-	<link rel="stylesheet" type="text/css"  href="/source/plugins/slick/slick-theme.css">
+	<link rel="stylesheet" type="text/css"  href="./static/source/plugins/slick/slick.css">
+	<link rel="stylesheet" type="text/css"  href="./static/source/plugins/slick/slick-theme.css">
 
 	<!-- Main Stylesheet -->
-	<link rel="stylesheet" type="text/css"  href="/source/css/style.css">
+	<link rel="stylesheet" type="text/css"  href="./static/source/css/style.css">
 
 	<!--Favicon-->
-	<link rel="icon" href="/source/source/images/favicon.png" type="image/x-icon">
+	<link rel="icon" href="./static/source./static/source/images/favicon.png" type="image/x-icon">
 
 	<!-- list Stylesheet -->
-	<link rel="stylesheet" type="text/css"  href="/source/css/list.css">
+	<link rel="stylesheet" type="text/css"  href="./static/source/css/list.css">
 
-	<link rel="stylesheet" type="text/css"  href="/source/css/detail.css">
+	<link rel="stylesheet" type="text/css"  href="./static/source/css/detail.css">
 </head>
-<div th:replace="Fragments/navigation :: navigationFragment('???????')" class="navigation"></div>
-<div th:replace="Fragments/pageTitle :: titleFragment('부천 맛집 소개', '부천')" class="page-title bg-1"></div>
+<header class="navigation">
+	<div id="navbar">
+	  <div class="container">
+		<div class="row">
+		  <div class="col-lg-12">
+			<nav class="navbar navbar-expand-lg px-0 py-4">
+			  <a class="navbar-brand" href="main.html">
+				<img src="./static/source/images/teamLogo.png" alt="부밥즈 팀 로고" class="logo">
+			  </a>
+		
+			  <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarsExample09"
+				aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="fa fa-bars"></span>
+			  </button>
+		
+			  <div class="collapse navbar-collapse text-center" id="navbarsExample09">
+				<ul class="navbar-nav ml-auto">
+				  <li class="nav-item @@home">
+					<a class="nav-link" href="main.html">Home</a>
+				  </li>
+				  <li class="nav-item @@service"><a class="nav-link" href="Yeokgok.html">역곡</a></li>
+				  <li class="nav-item @@project"><a class="nav-link" href="Bucheon.html">부천</a></li>
+				  <li class="nav-item @@contact"><a class="nav-link" href="Sosa.html">소사</a></li>
+				</ul>
+			  </div>
+			</nav>
+		  </div>
+		</div>
+	  </div>
+	</div>
+  </header>
+  <section class="page-title bg-1">
+	<div class="container">
+	  <div class="row">
+		<div class="col-md-12">
+		  <div class="block text-center">
+			<h1 class="text-capitalize mb-4 text-lg">역곡</h1>
+			<ul class="list-inline">
+			  <li class="list-inline-item"><a href="main.html" class="text-white">Home</a></li>
+			  <li class="list-inline-item"><span class="text-white">/</span></li>
+			  <li class="list-inline-item text-white-50">역곡 맛집 소개</li>
+			</ul>
+		  </div>
+		</div>
+	  </div>
+	</div>
+  </section>
 <section class="section blog-wrap bg-gray">
 	<div class="container">
 		<div class="row">
@@ -41,7 +86,7 @@
 				<div class="row">
 					<div class="col-lg-12 mb-5">
 						<div class="single-blog-item">
-							<img loading="lazy" src="/source/images/bucheon2.jpg" alt="blog" class="img-fluid rounded">
+							<img loading="lazy" src="./static/source/images/yeokgok1.jpg" alt="blog" class="img-fluid rounded">
 
 							<div class="blog-item-content bg-white p-5">
 								<div class="blog-item-meta bg-gray pt-2 pb-1 px-3">
@@ -51,39 +96,26 @@
 									<!--<span class="text-black text-capitalize mr-3"><i class="ti-time mr-1"></i> 28th January</span>-->
 								</div>
 
-								<h2 class="mt-3 mb-4">오다 초밥</h2>
-								<p class="video">
-									<video muted autoplay loop style="max-width: 100%;">
-										<source src="/source/video/bucheon2-3.mp4" type="video/mp4">
-										<strong>Your browser does not support the video tag.</strong>
-									</video>
-								</p>
+								<h2 class="mt-3 mb-4">명가순대국</h2>
 								<p class="lead mb-4">
-									초밥 외 식사류도 다양해서 여러 종류를 즐겨보면 좋을 것 같아요.
-								</p>
-								<p>
-									There are various types of food besides sushi, so I think it would be nice to enjoy different types.
-								</p>
-								<img loading="lazy" src="/source/images/bucheon2-1.jpg" alt="blog" class="img-fluid rounded">
-								<p class="lead mb-4">
-									저희는 모두 런치 세트로 주문해서 먹었어요!
-								</p>
-								<p>
-									We all ordered lunch set menu!
-								</p>
-								<p class="video">
-									<video muted autoplay loop style="max-width: 100%;">
-										<source src="/source/video/bucheon2-2.mp4" type="video/mp4">
-										<strong>Your browser does not support the video tag.</strong>
-									</video>
-								</p>
-								<p class="lead mb-4">
-									런치메뉴 단 돈 9500원에 초밥부터 뜨끈한 우동까지 초밥의 가격에 부담을 느끼시는 학생분들에게 강력추천합니다!!
-								</p>
-								<p>
-									The most cost-effective from sushi to hot udon for just 9,500 won on the lunch menu
+									다양한 내장과 순대를 맛볼 수 있는 이곳!
 									<br>
-									Recommend it to students who feel burdened by the price of sushi!
+									뜨끈하고 든든하게 한 끼 먹고 싶은 분들께 추천합니다!
+								</p>
+								<p>
+									You can taste various intestines and sundae!
+									<br>
+									Recommended for those who want a piping hot and full meal!
+								</p>
+								<p>
+									<img loading="lazy" src="./static/source/images/yeokgok1-1.jpg" alt="blog" class="img-fluid rounded">
+								</p>
+								<p class="lead mb-4">
+									저희는 다같이 순대국을 시켜서 먹었습니다! 추운 날씨에 몸을 따뜻하게 녹이니 좋았어요
+								</p>
+								<p>
+									We all ordered sundae stew! It was nice to warm up in cold weather.
+
 								</p>
 
 								<!--<div class="tag-option mt-5 d-block d-md-flex justify-content-between align-items-center">
@@ -142,7 +174,7 @@
 									<div class="comment-area-box">
 										<!--<img loading="lazy" alt="comment-author" src="source/images/blog/test1.jpg" class="img-fluid float-left mr-3 mt-2">-->
 
-										<h5 class="mb-1">곽수진</h5>
+										<h5 class="mb-1">박찬주</h5>
 
 										<div class="comment-meta mt-4 mt-lg-0 mt-md-0 float-lg-right float-md-right">
 											<!--<a href="#"><i class="icofont-reply mr-2 text-muted"></i>Reply |</a>-->
@@ -150,23 +182,23 @@
 										</div>
 
 										<div class="comment-content mt-3">
-											<p>가성비 끝판왕 스시 맛집! 저렴한 가격으로 다양한 종류의 초밥을 맛 볼 수 있어 좋았어요 :)</p>
-											<p>It's got bigger bang for the buck! It was nice to be able to taste various types of sushi at a reasonable price :)</p>
+											<p>날이 추울 땐 따뜻한 국물 음식이 제일 좋은 것 같아요</p>
+											<p>On a cold day, I think warm soup is the best.</p>
 										</div>
 									</div>
 								</li>
 
 								<li>
 									<div class="comment-area-box">
-										<h5 class="mb-1">조수현</h5>
+										<h5 class="mb-1">곽수진</h5>
 
 										<div class="comment-meta mt-4 mt-lg-0 mt-md-0 float-lg-right float-md-right">
 											<span class="date-comm">Posted December 7, 2022 </span>
 										</div>
 
 										<div class="comment-content mt-3">
-											<p>초밥을 좋아하지 않는 편인데 비린내가 없어 맛있게 먹었어요!</p>
-											<p>I don't like sushi, but i could eat it cuz there was no fishy smell!</p>
+											<p>다양한 메뉴가 있어 자주 방문해도 질리지 않을 것 같아요</p>
+											<p>It was nice that the store closed late.</p>
 										</div>
 									</div>
 								</li>
@@ -203,24 +235,40 @@
 		</div>
 	</div>
 </section>
-<div th:replace="Fragments/footer :: footerFragment('???????')" class="footer"></div>
-
-<script src="/source/plugins/jquery/jquery.min.js"></script>
+<footer class="footer section">
+	<div class="container">
+	  <div class="footer-btm pt-4">
+		<div class="row">
+		  <div class="col-lg-6">
+			<div class="copyright">
+			  Copyright &copy; 2020, Designed &amp; Developed by <a href="#">부밥즈</a>
+			</div>
+		  </div>
+		</div>
+	  </div>
+	</div>
+  </footer>
+  
+  <!--Scroll to top-->
+  <div id="scroll-to-top" class="scroll-to-top">
+	<span class="icon fa fa-angle-up"></span>
+  </div>
+<script src="./static/source/plugins/jquery/jquery.min.js"></script>
 <!-- Bootstrap 4.3.1 -->
-<script src="/source/plugins/bootstrap/bootstrap.min.js"></script>
+<script src="./static/source/plugins/bootstrap/bootstrap.min.js"></script>
 <!--  Magnific Popup-->
-<script src="/source/plugins/magnific-popup/jquery.magnific-popup.min.js"></script>
+<script src="./static/source/plugins/magnific-popup/jquery.magnific-popup.min.js"></script>
 <!-- Slick Slider -->
-<script src="/source/plugins/slick/slick.min.js"></script>
+<script src="./static/source/plugins/slick/slick.min.js"></script>
 <!-- Counterup -->
-<script src="/source/plugins/counterup/jquery.waypoints.min.js"></script>
-<script src="/source/plugins/counterup/jquery.counterup.min.js"></script>
+<script src="./static/source/plugins/counterup/jquery.waypoints.min.js"></script>
+<script src="./static/source/plugins/counterup/jquery.counterup.min.js"></script>
 
 <!-- Google Map -->
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU" defer></script>
-<script src="/source/plugins/google-map/map.js" defer></script>
+<script src="./static/source/plugins/google-map/map.js" defer></script>
 
-<script src="/source/js/script.js"></script>
+<script src="./static/source/js/script.js"></script>
 
 
 

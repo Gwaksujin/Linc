@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+	<meta charset="utf-8" />
+	<title>부밥즈 - 부천 페이지</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="description" content="Agency HTML Template">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+	<meta name="author" content="Themefisher">
+	<meta name="generator" content="Themefisher Html5 Agency Template v1.0">
+
+	<!-- theme meta -->
+	<meta name="theme-name" content="megakit" />
+
+	<!-- bootstrap.min css -->
+	<link rel="stylesheet" type="text/css" href="./static/source/plugins/bootstrap/bootstrap.min.css">
+	<!-- Icon Font Css -->
+	<link rel="stylesheet" type="text/css"  href="./static/source/plugins/themify/css/themify-icons.css">
+	<link rel="stylesheet" type="text/css"  href="./static/source/plugins/fontawesome/css/all.min.css">
+	<link rel="stylesheet" type="text/css"  href="./static/source/plugins/magnific-popup/magnific-popup.css">
+	<!-- Owl Carousel CSS -->
+	<link rel="stylesheet" type="text/css"  href="./static/source/plugins/slick/slick.css">
+	<link rel="stylesheet" type="text/css"  href="./static/source/plugins/slick/slick-theme.css">
+
+	<!-- Main Stylesheet -->
+	<link rel="stylesheet" type="text/css"  href="./static/source/css/style.css">
+
+	<!--Favicon-->
+	<link rel="icon" href="./static/source/images/favicon.png" type="image/x-icon">
+
+	<link rel="stylesheet" type="text/css"  href="./static/source/css/list.css">
+</head>
+<header class="navigation">
+	<div id="navbar">
+	  <div class="container">
+		<div class="row">
+		  <div class="col-lg-12">
+			<nav class="navbar navbar-expand-lg px-0 py-4">
+			  <a class="navbar-brand" href="main.html">
+				<img src="./static/source/images/teamLogo.png" alt="부밥즈 팀 로고" class="logo">
+			  </a>
+		
+			  <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarsExample09"
+				aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="fa fa-bars"></span>
+			  </button>
+		
+			  <div class="collapse navbar-collapse text-center" id="navbarsExample09">
+				<ul class="navbar-nav ml-auto">
+				  <li class="nav-item @@home">
+					<a class="nav-link" href="main.html">Home</a>
+				  </li>
+				  <li class="nav-item @@service"><a class="nav-link" href="Yeokgok.html">역곡</a></li>
+				  <li class="nav-item @@project"><a class="nav-link" href="Bucheon.html">부천</a></li>
+				  <li class="nav-item @@contact"><a class="nav-link" href="Sosa.html">소사</a></li>
+				</ul>
+			  </div>
+			</nav>
+		  </div>
+		</div>
+	  </div>
+	</div>
+  </header>
+  <section class="page-title bg-1">
+	<div class="container">
+	  <div class="row">
+		<div class="col-md-12">
+		  <div class="block text-center">
+			<h1 class="text-capitalize mb-4 text-lg">부천</h1>
+			<ul class="list-inline">
+			  <li class="list-inline-item"><a href="main.html" class="text-white">Home</a></li>
+			  <li class="list-inline-item"><span class="text-white">/</span></li>
+			  <li class="list-inline-item text-white-50" th:text="${param2}"></li>
+			</ul>
+		  </div>
+		</div>
+	  </div>
+	</div>
+  </section>
+<section class="section blog-wrap bg-gray">
+	<div class="container">
+		<table class="table">
+			<thead>
+			<tr>
+				<th scope="col">No.</th>
+				<th scope="col">제목</th>
+				<th scope="col">작성자</th>
+				<th scope="col">작성일</th>
+			</tr>
+			</thead>
+			<tbody>
+			<tr>
+				<th>2</th>
+				<td>
+					<a href="BucheonDetail2.html"><span>오다초밥</span></a>
+				</td>
+				<td>부밥즈</td>
+				<td>2022.12.11</td>
+			</tr>
+			<tr>
+				<th>1</th>
+				<td>
+					<a href="BucheonDetail1.html"><span>시골 뚝배기</span></a>
+				</td>
+				<td>부밥즈</td>
+				<td>2022.12.11</td>
+			</tr>
+			</tbody>
+		</table>
+		<div class="row justify-content-center mt-5">
+			<div class="col-lg-6 text-center">
+				<nav class="navigation pagination d-inline-block">
+					<div class="nav-links">
+						<a class="prev page-numbers" href="#">Prev</a>
+						<span aria-current="page" class="page-numbers current">1</span>
+						<a class="page-numbers" href="#">2</a>
+						<a class="next page-numbers" href="#">Next</a>
+					</div>
+				</nav>
+			</div>
+		</div>
+	</div>
+</section>
+<footer class="footer section">
+	<div class="container">
+	  <div class="footer-btm pt-4">
+		<div class="row">
+		  <div class="col-lg-6">
+			<div class="copyright">
+			  Copyright &copy; 2020, Designed &amp; Developed by <a href="#">부밥즈</a>
+			</div>
+		  </div>
+		</div>
+	  </div>
+	</div>
+  </footer>
+  
+  <!--Scroll to top-->
+  <div id="scroll-to-top" class="scroll-to-top">
+	<span class="icon fa fa-angle-up"></span>
+  </div>
+
+<script src="./static/source/plugins/jquery/jquery.min.js"></script>
+<!-- Bootstrap 4.3.1 -->
+<script src="./static/source/plugins/bootstrap/bootstrap.min.js"></script>
+<!--  Magnific Popup-->
+<script src="./static/source/plugins/magnific-popup/jquery.magnific-popup.min.js"></script>
+<!-- Slick Slider -->
+<script src="./static/source/plugins/slick/slick.min.js"></script>
+<!-- Counterup -->
+<script src="./static/source/plugins/counterup/jquery.waypoints.min.js"></script>
+<script src="./static/source/plugins/counterup/jquery.counterup.min.js"></script>
+
+<!-- Google Map -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU" defer></script>
+<script src="./static/source/plugins/google-map/map.js" defer></script>
+
+<script src="./static/source/js/script.js"></script>
+
+
+
+
+</body>
+
+</html>

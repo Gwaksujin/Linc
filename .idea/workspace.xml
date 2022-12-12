@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8233c1f3-bde9-4534-bade-154f67041aec" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Bucheon.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BucheonDetail1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BucheonDetail2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sosa.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SosaDetail1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Yeokgok.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CatholicUniversity/Linc/LincApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CatholicUniversity/Linc/controller/BucheonController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CatholicUniversity/Linc/controller/SosaController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CatholicUniversity/Linc/controller/YeokgokController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CatholicUniversity/Linc/domain/entity/Bucheon.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CatholicUniversity/Linc/domain/entity/BucheonComments.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CatholicUniversity/Linc/domain/entity/BucheonFiles.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CatholicUniversity/Linc/domain/entity/common/Auditable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CatholicUniversity/Linc/dto/BucheonCommentRequestDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CatholicUniversity/Linc/dto/BucheonCommentResponseDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CatholicUniversity/Linc/dto/BucheonCommentsDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CatholicUniversity/Linc/dto/BucheonDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CatholicUniversity/Linc/dto/BucheonFileDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CatholicUniversity/Linc/repository/BucheonCommentsRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CatholicUniversity/Linc/repository/BucheonFilesRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CatholicUniversity/Linc/repository/BucheonRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CatholicUniversity/Linc/service/BucheonService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CatholicUniversity/Linc/util/MD5Generator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/source/css/detail.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/source/css/detail.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/source/css/list.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/source/css/list.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/source/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/source/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/source/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/static/source/css/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/source/images/about/about.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/source/images/about/about.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/source/images/about/bg-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/source/images/about/bg-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/source/images/about/home-7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/source/images/about/home-7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/source/images/about/home-8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/source/images/about/home-8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/source/images/banner.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/source/images/banner.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/source/images/bg/counter.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/source/images/bg/counter.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/source/images/bg/home-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/source/images/bg/home-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/source/images/bg/home-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/source/images/bg/home-2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/source/images/bg/home-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/source/images/bg/home-3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/source/images/bg/home-5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/source/images/bg/home-5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/source/images/bg/home-6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/source/images/bg/home-6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/source/images/bg/home-7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/source/images/bg/home-7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/source/images/bg/home-8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/source/images/bg/home-8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/source/images/blog/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/source/images/blog/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/source/images/blog/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/source/images/blog/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/source/images/blog/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/source/images/blog/3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/source/images/blog/4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/source/images/blog/4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/source/images/blog/blog-author.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/source/images/blog/blog-author.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/source/images/blog/bt-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/source/images/blog/bt-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/source/images/blog/bt-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/source/images/blog/bt-2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/source/images/blog/bt-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/source/images/blog/bt-3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/source/images/blog/test1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/source/images/blog/test1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/source/images/blog/test2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/source/images/blog/test2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/source/images/bucheon1-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/source/images/bucheon1-2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/source/images/bucheon1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/source/images/bucheon1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/source/images/bucheon2-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/source/images/bucheon2-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/source/images/bucheon2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/source/images/bucheon2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/source/images/detailBanner.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/source/images/detailBanner.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/source/images/favicon.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/source/images/favicon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/source/images/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/source/images/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/source/images/marker.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/source/images/marker.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/source/images/portfolio/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/source/images/portfolio/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/source/images/portfolio/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/source/images/portfolio/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/source/images/portfolio/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/source/images/portfolio/3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/source/images/portfolio/4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/source/images/portfolio/4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/source/images/portfolio/5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/source/images/portfolio/5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/source/images/portfolio/6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/source/images/portfolio/6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/source/images/sosa1-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/source/images/sosa1-2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/source/images/sosa1-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/source/images/sosa1-3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/source/images/sosa1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/source/images/sosa1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/source/images/sosa2-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/source/images/sosa2-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/source/images/sosa2-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/source/images/sosa2-2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/source/images/sosa2-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/source/images/sosa2-3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/source/images/sosa2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/source/images/sosa2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/source/images/team/team-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/source/images/team/team-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/source/images/team/team-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/source/images/team/team-2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/source/images/team/team-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/source/images/team/team-3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/source/images/team/team-4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/source/images/team/team-4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/source/images/team/team-5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/source/images/team/team-5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/source/images/team/team-6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/source/images/team/team-6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/source/images/teamLogo.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/source/images/teamLogo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/source/images/yeokgok1-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/source/images/yeokgok1-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/source/images/yeokgok1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/source/images/yeokgok1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/source/images/yeokgok2-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/source/images/yeokgok2-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/source/images/yeokgok2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/source/images/yeokgok2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/source/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/source/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/source/plugins/animate-css/animate.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/source/plugins/animate-css/animate.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/source/plugins/bootstrap/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/source/plugins/bootstrap/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/source/plugins/bootstrap/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/source/plugins/bootstrap/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/source/plugins/counterup/jquery.counterup.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/source/plugins/counterup/jquery.counterup.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/source/plugins/counterup/jquery.waypoints.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/source/plugins/counterup/jquery.waypoints.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/source/plugins/fontawesome/css/all.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/source/plugins/fontawesome/css/all.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/source/plugins/fontawesome/css/all.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/source/plugins/fontawesome/css/all.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/source/plugins/fontawesome/webfonts/fa-brands-400.eot" beforeDir="false" afterPath="$PROJECT_DIR$/static/source/plugins/fontawesome/webfonts/fa-brands-400.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/source/plugins/fontawesome/webfonts/fa-brands-400.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/source/plugins/fontawesome/webfonts/fa-brands-400.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/source/plugins/fontawesome/webfonts/fa-brands-400.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/static/source/plugins/fontawesome/webfonts/fa-brands-400.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/source/plugins/fontawesome/webfonts/fa-brands-400.woff" beforeDir="false" afterPath="$PROJECT_DIR$/static/source/plugins/fontawesome/webfonts/fa-brands-400.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/source/plugins/fontawesome/webfonts/fa-brands-400.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/static/source/plugins/fontawesome/webfonts/fa-brands-400.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/source/plugins/fontawesome/webfonts/fa-regular-400.eot" beforeDir="false" afterPath="$PROJECT_DIR$/static/source/plugins/fontawesome/webfonts/fa-regular-400.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/source/plugins/fontawesome/webfonts/fa-regular-400.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/source/plugins/fontawesome/webfonts/fa-regular-400.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/source/plugins/fontawesome/webfonts/fa-regular-400.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/static/source/plugins/fontawesome/webfonts/fa-regular-400.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/source/plugins/fontawesome/webfonts/fa-regular-400.woff" beforeDir="false" afterPath="$PROJECT_DIR$/static/source/plugins/fontawesome/webfonts/fa-regular-400.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/source/plugins/fontawesome/webfonts/fa-regular-400.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/static/source/plugins/fontawesome/webfonts/fa-regular-400.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/source/plugins/fontawesome/webfonts/fa-solid-900.eot" beforeDir="false" afterPath="$PROJECT_DIR$/static/source/plugins/fontawesome/webfonts/fa-solid-900.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/source/plugins/fontawesome/webfonts/fa-solid-900.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/source/plugins/fontawesome/webfonts/fa-solid-900.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/source/plugins/fontawesome/webfonts/fa-solid-900.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/static/source/plugins/fontawesome/webfonts/fa-solid-900.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/source/plugins/fontawesome/webfonts/fa-solid-900.woff" beforeDir="false" afterPath="$PROJECT_DIR$/static/source/plugins/fontawesome/webfonts/fa-solid-900.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/source/plugins/fontawesome/webfonts/fa-solid-900.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/static/source/plugins/fontawesome/webfonts/fa-solid-900.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/source/plugins/google-map/map.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/source/plugins/google-map/map.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/source/plugins/jquery/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/source/plugins/jquery/jquery.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/source/plugins/magnific-popup/jquery.magnific-popup.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/source/plugins/magnific-popup/jquery.magnific-popup.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/source/plugins/magnific-popup/magnific-popup.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/source/plugins/magnific-popup/magnific-popup.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/source/plugins/slick/README.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/static/source/plugins/slick/README.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/source/plugins/slick/ajax-loader.gif" beforeDir="false" afterPath="$PROJECT_DIR$/static/source/plugins/slick/ajax-loader.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/source/plugins/slick/fonts/slick.eot" beforeDir="false" afterPath="$PROJECT_DIR$/static/source/plugins/slick/fonts/slick.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/source/plugins/slick/fonts/slick.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/source/plugins/slick/fonts/slick.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/source/plugins/slick/fonts/slick.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/static/source/plugins/slick/fonts/slick.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/source/plugins/slick/fonts/slick.woff" beforeDir="false" afterPath="$PROJECT_DIR$/static/source/plugins/slick/fonts/slick.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/source/plugins/slick/slick-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/source/plugins/slick/slick-theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/source/plugins/slick/slick.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/source/plugins/slick/slick.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/source/plugins/slick/slick.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/source/plugins/slick/slick.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/source/plugins/themify/css/themify-icons.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/source/plugins/themify/css/themify-icons.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/source/plugins/themify/fonts/themify.eot" beforeDir="false" afterPath="$PROJECT_DIR$/static/source/plugins/themify/fonts/themify.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/source/plugins/themify/fonts/themify.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/source/plugins/themify/fonts/themify.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/source/plugins/themify/fonts/themify.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/static/source/plugins/themify/fonts/themify.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/source/plugins/themify/fonts/themify.woff" beforeDir="false" afterPath="$PROJECT_DIR$/static/source/plugins/themify/fonts/themify.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/source/scss/_color.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/source/scss/_color.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/source/scss/_common.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/source/scss/_common.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/source/scss/_main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/source/scss/_main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/source/scss/_media-query.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/source/scss/_media-query.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/source/scss/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/source/scss/_mixins.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/source/scss/_typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/source/scss/_typography.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/source/scss/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/source/scss/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/source/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/source/scss/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/source/scss/templates/_about.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/source/scss/templates/_about.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/source/scss/templates/_backgrounds.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/source/scss/templates/_backgrounds.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/source/scss/templates/_blog-sidebar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/source/scss/templates/_blog-sidebar.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/source/scss/templates/_blog.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/source/scss/templates/_blog.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/source/scss/templates/_contact.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/source/scss/templates/_contact.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/source/scss/templates/_counter.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/source/scss/templates/_counter.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/source/scss/templates/_cta.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/source/scss/templates/_cta.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/source/scss/templates/_feature.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/source/scss/templates/_feature.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/source/scss/templates/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/source/scss/templates/_footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/source/scss/templates/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/source/scss/templates/_header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/source/scss/templates/_intro.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/source/scss/templates/_intro.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/source/scss/templates/_navigation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/source/scss/templates/_navigation.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/source/scss/templates/_portfolio.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/source/scss/templates/_portfolio.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/source/scss/templates/_pricing.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/source/scss/templates/_pricing.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/source/scss/templates/_responsive.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/source/scss/templates/_responsive.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/source/scss/templates/_review.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/source/scss/templates/_review.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/source/scss/templates/_service.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/source/scss/templates/_service.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/source/scss/templates/_single-post.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/source/scss/templates/_single-post.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/source/scss/templates/_slider.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/source/scss/templates/_slider.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/source/scss/templates/_team.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/source/scss/templates/_team.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/source/video/bucheon1-1.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/static/source/video/bucheon1-1.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/source/video/bucheon2-2.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/static/source/video/bucheon2-2.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/source/video/bucheon2-3.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/static/source/video/bucheon2-3.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/source/video/sosa1-4.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/static/source/video/sosa1-4.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/source/video/teamVideo.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/static/source/video/teamVideo.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/source/video/yeokgok2-2.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/static/source/video/yeokgok2-2.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/Bucheon.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/BucheonDetail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/BucheonDetail1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/BucheonDetail2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/BucheonWrite.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/Fragments/footer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/Fragments/navigation.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/Fragments/pageTitle.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/Sosa.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/SosaDetail1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/SosaDetail2.html" beforeDir="false" afterPath="$PROJECT_DIR$/SosaDetail2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/Yeokgok.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/YeokgokDetail1.html" beforeDir="false" afterPath="$PROJECT_DIR$/YeokgokDetail1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/YeokgokDetail2.html" beforeDir="false" afterPath="$PROJECT_DIR$/YeokgokDetail2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/sample/about.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/sample/blog-grid.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/sample/blog-sidebar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/sample/blog-single.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/sample/contact.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/sample/page-title.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/sample/pricing.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/sample/project.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/sample/service.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CatholicUniversity/Linc/LincApplicationTests.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Ip7lACIl8XSOZcluT8Li8CEf3V" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/950QDA-XC58B/Desktop/Linc/Linc-1"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8233c1f3-bde9-4534-bade-154f67041aec" name="Changes" comment="" />
+      <created>1670866820901</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1670866820901</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
